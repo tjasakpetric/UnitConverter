@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-#Naloga pretvornik enot
+#Naloga: Pretvornik enot, pretvarja kilometre v milje in obratno. 
 
 print "Hello! welcome to converter!"
 print "You can convert kilometers to miles or miles to kilometers."
 
 while True:
-    option = raw_input("Type km-mi if you want to convert kilometers to miles or mi-km if you want to convert miles to kilometers: ").lower()
+    option = raw_input("Type km-mi to convert kilometers to miles or mi-km to convert miles to kilometers: ").lower()
     if option == "km-mi":
         print "You are currently converting kilometers to miles."
         convert = raw_input("Enter a number in kilometers that you would like to convert to miles: ")
